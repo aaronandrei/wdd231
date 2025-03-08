@@ -1,0 +1,65 @@
+:root {
+    --darkgreen: #212922;
+    --ivory: #F6F7EB;
+    --red: #E94F37;
+    --blue: #3F88C5;
+    --font: "Ubuntu Sans", Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    font-family: var(--font);
+}
+
+.mainheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkgreen);
+    /* border: 1px solid ivory; */
+}
+
+.mainheader img {
+    width: 110px;
+    height: auto;
+    margin: 1rem;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    /* border: 1px solid ivory; */
+}
+
+.name {
+    padding: 1rem;
+    margin: 0;
+    color: var(--ivory);
+    font-size: 2rem;
+    font-weight: bold;
+    /* border: 1px solid ivory; */
+}
+
+nav {
+    background-color: #3F88C5;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: var(--ivory);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid var(--ivory);
+}

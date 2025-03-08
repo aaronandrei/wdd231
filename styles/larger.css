@@ -1,3 +1,7 @@
-@media screen {
-    
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
 }
