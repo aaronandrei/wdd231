@@ -13,6 +13,7 @@
 }
 
 header,
+nav,
 main,
 footer {
     font-family: var(--font);
