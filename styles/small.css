@@ -89,3 +89,34 @@ nav {
 .show li {
     display: block;
 }
+
+h1 {
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--darkgreen);
+    padding: .5rem;
+    color: var(--ivory);
+}
+
+.location img {
+    width: 150px;
+    height: auto;
+    padding: .4rem;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--blue);
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+}
+
+footer p {
+    padding: .2rem;
+    color: var(--ivory);
+}
