@@ -24,6 +24,7 @@ body {
     background-color: var(--blue);
     color: var(--ivory);
     padding: .1rem 0 .2rem 1rem;
+    cursor: pointer;
 }
 
 #menu::before {
