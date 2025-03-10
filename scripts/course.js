@@ -85,7 +85,7 @@ createCourseCard(courses);
 const cseCourseLink = document.querySelector("#CSE");
 
 cseCourseLink.addEventListener("click", () => {
-    createCourseCard(courses.filter(course => course.subject === "CSE"));
+    createCourseCard(courses.filter(course => course.subject == "CSE"));
 });
 
 const wddCourseLink = document.querySelector("#WDD");
@@ -103,7 +103,7 @@ function createCourseCard(filteredCourses) {
 
 
         name.textContent = course.courseName;
-        subject.innerHTML = `<span class="label"></span> ${course.subject}`;
+        subject.innerHTML = `<span class="label"></span> ${course.title}`;
 
         card.appendChild(subject);
 

@@ -133,6 +133,14 @@ section {
     border-radius: .5rem;
 }
 
+#courses section {
+    padding: .4rem;
+    background-color: var(--red);
+    margin: .8rem;
+    color: var(--ivory);
+    text-align: center;
+}
+
 footer {
     background-color: var(--blue);
     text-align: center;
