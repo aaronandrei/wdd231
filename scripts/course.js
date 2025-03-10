@@ -95,9 +95,9 @@ wddCourseLink.addEventListener("click", () => {
 });
 
 
-function createTempleCard(filteredCoures) {
+function createCourseCard(filteredCourses) {
     document.querySelector("#courses").innerHTML = "";
-    filteredCoures.forEach(course => {
+    filteredCourses.forEach(course => {
         let card = document.createElement("section");
         let subject = document.createElement("p");
 
