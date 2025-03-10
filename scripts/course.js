@@ -9,7 +9,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -22,7 +22,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -34,7 +34,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -60,7 +60,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -77,3 +77,36 @@ const courses = [
         completed: false
     }
 ]
+
+
+// Create Course buttons.
+createCourseCard(courses);
+
+const cseCourseLink = document.querySelector("#CSE");
+
+cseCourseLink.addEventListener("click", () => {
+    createCourseCard(courses.filter(course => course.subject === "CSE"));
+});
+
+const wddCourseLink = document.querySelector("#WDD");
+
+wddCourseLink.addEventListener("click", () => {
+    createCourseCard(courses.filter(course => course.subject == "WDD"));
+});
+
+
+function createTempleCard(filteredCoures) {
+    document.querySelector("#courses").innerHTML = "";
+    filteredCoures.forEach(course => {
+        let card = document.createElement("section");
+        let subject = document.createElement("p");
+
+
+        name.textContent = course.courseName;
+        subject.innerHTML = `<span class="label"></span> ${course.subject}`;
+
+        card.appendChild(subject);
+
+        document.querySelector("#courses").appendChild(card);
+    });
+}

@@ -107,13 +107,36 @@ h2 {
     width: 150px;
     height: auto;
     padding: .4rem;
-    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.location figcaption {
+    text-align: center;
+}
+
+section {
+    padding: .5rem 0 .5rem 0;
+}
+
+.filters {
+    display: flex;
+}
+
+.filters button {
+    display: block;
+    flex: 1 1 100%;
+    margin: .5rem;
+    padding: .2rem;
+    background: var(--darkgreen);
+    color: var(--ivory);
+    border-radius: .5rem;
 }
 
 footer {
     background-color: var(--blue);
     text-align: center;
-    margin: 1rem auto 1rem auto;
+    margin: 1rem auto;
 }
 
 footer p {
