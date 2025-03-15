@@ -15,24 +15,30 @@
     #menu {
         display: none;
     }
+
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
         margin: 0 auto;
     }
+
     section {
         display: block;
         padding: 1rem;
     }
+
     .course {
         grid-column: 1/2;
     }
+
     .course li {
         text-decoration: none;
     }
+
     .location {
         grid-column: 2/3;
     }
+
     .certificate {
         grid-column: 1/3;
     }
