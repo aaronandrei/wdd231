@@ -94,6 +94,10 @@ wddCourseLink.addEventListener("click", () => {
     createCourseCard(courses.filter(course => course.subject == "WDD"));
 });
 
+document.querySelector('#All').addEventListener("click", () => {
+    createCourseCard(courses);
+})
+
 
 function createCourseCard(filteredCourses) {
     document.querySelector("#courses").innerHTML = "";
