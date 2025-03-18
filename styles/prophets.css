@@ -1,0 +1,24 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+}
+
+#cards h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#cards p {
+    text-align: center;
+}

@@ -28,7 +28,7 @@ body {
 }
 
 #menu::before {
-    content: "☰";
+    content: "☰"
 }
 
 #menu.show::before {
@@ -86,7 +86,7 @@ nav {
     border: 1px solid var(--ivory);
 }
 
-.show #navmenu li {
+#navmenu.show li {
     display: block;
 }
 
