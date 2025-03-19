@@ -7,6 +7,14 @@
     <title>Chamber Directory Page</title>
     <meta name="description" content="The directory page for the Chamber site of the website.">
     <meta name="author" content="Aaron Andrei M">
+    <link rel="stylesheet" href="..styles/normalize">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script defer src="../scripts/dates.js"></script>
+    <script defer src="scripts/navigation.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link rel="icon" href="..favicon.ico">
     <meta property="og:title" content="Aaron Andrei M Home Page.">
     <meta property="og:type" content="website">
@@ -16,7 +24,29 @@
 </head>
 
 <body>
-
+    <header>
+        <img id="logo" src="images/houston-logo.svg" alt="Houston skyline logo." width="40" height="auto">
+        <div id="name">
+            <span id="city">Houston</span>
+            <span id="chamber">Chamber of Commerce</span>
+        </div>
+        <button id="navbutton"></button>
+    </header>
+    <nav>
+        <ul class="menulinks">
+            <li><a href="#" title="Home">Home</a></li>
+            <li class="active"><a href="#">Directory</a></li>
+            <li><a href="#" title="Join">Join</a></li>
+            <li><a href="#" title="Discover">Discovery</a></li>
+        </ul>
+    </nav>
+    <main></main>
+    <footer>
+        <p>Aaron Andrei M</p>
+        <p>WDD 231</p>
+        <p><span id="currentyear"></span><span> Houston Chamber of Commerce</span></p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
