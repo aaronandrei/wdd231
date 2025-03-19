@@ -1,7 +1,7 @@
 :root {
     --darkgreen: #212922;
     --ivory: #F6F7EB;
-    --red: #E94F37;
+    --red: #b53e30;
     --blue: #3F88C5;
     --font: "Ubuntu Sans", Verdana, sans-serif;
 }
@@ -21,14 +21,14 @@ body {
     font-size: 2rem;
     text-decoration: none;
     justify-items: center;
-    background-color: var(--blue);
-    color: var(--ivory);
-    padding: .1rem 0 .2rem 1rem;
+    background-color: var(--ivory);
+    color: var(--darkgreen);
+    padding: 0 0 .3rem 1rem;
     cursor: pointer;
 }
 
 #menu::before {
-    content: "☰"
+    content: "\2630"
 }
 
 #menu.show::before {
@@ -61,7 +61,7 @@ body {
 }
 
 nav {
-    background-color: #3F88C5;
+    background-color: var(--ivory);
 }
 
 #navmenu {
@@ -76,7 +76,7 @@ nav {
 #navmenu a {
     display: block;
     text-decoration: none;
-    color: var(--ivory);
+    color: var(--darkgreen);
     text-align: center;
     padding: 1rem;
 }
@@ -141,13 +141,17 @@ section {
     text-align: center;
 }
 
+.course ul {
+    list-style-type: none;
+}
+
 footer {
-    background-color: var(--blue);
+    background-color: var(--ivory);
     text-align: center;
     margin: 1rem auto;
 }
 
 footer p {
     padding: .2rem;
-    color: var(--ivory);
+    color: var(--darkgreen);
 }
