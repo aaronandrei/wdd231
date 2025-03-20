@@ -12,12 +12,18 @@
     ul.menulinks a:hover {
         background-color: rgba(255, 255, 255, 0.2);
     }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         font-size: .7rem;
     }
+
     #footerinfo {
         grid-column: 3/4;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
     }
 }

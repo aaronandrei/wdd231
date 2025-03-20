@@ -29,7 +29,16 @@ nav {
     transition: grid-template-rows 0.5s ease-out;
 }
 
-nav ul {overflow: hidden;}
+nav ul {
+    overflow: hidden;
+}
+
+nav.open li a, nav li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: var(--ivory);
+    text-decoration: none;
+}
 
 nav.open {
     grid-template-rows: 1fr;
