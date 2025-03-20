@@ -1,5 +1,5 @@
 const hamburgerElement = document.querySelector('#navbutton');
-const navElement = document.querySelector('.menulinks');
+const navElement = document.querySelector('#animateme');
 
 hamburgerElement.addEventListener('click', () => {
     navElement.classList.toggle('open');
