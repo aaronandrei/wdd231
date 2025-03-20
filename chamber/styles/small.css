@@ -133,3 +133,7 @@ footer p {
     justify-content: space-around;
     margin: 0 auto;
 }
+
+#cards {
+    text-align: center;
+}

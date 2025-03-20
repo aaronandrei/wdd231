@@ -13,7 +13,7 @@ const displayCompanies = (companies) => {
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let website = document.createElement('p');
-        // let portrait = document.createElement('img');
+        let logo = document.createElement('img');
 
         name.textContent = `${company.name}`;
 
@@ -23,12 +23,13 @@ const displayCompanies = (companies) => {
 
         website.textContent = `${company.website}`;
 
-        // portrait.setAttribute('src', prophet.imageurl);
-        // portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
-        // portrait.setAttribute('loading', 'lazy');
-        // portrait.setAttribute('width', '340');
-        // portrait.setAttribute('height', '440');
+        logo.setAttribute('src', company.icon);
+        logo.setAttribute('alt', `Logo of ${company.name}.`);
+        logo.setAttribute('loading', 'lazy');
+        logo.setAttribute('width', '90');
+        // logo.setAttribute('height', '200');
 
+        card.appendChild(logo);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
