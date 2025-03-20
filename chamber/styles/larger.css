@@ -1,4 +1,4 @@
-@media (min-width: 320px) {
+@media (min-width: 400px) {
     #navbutton {
         display: none;
     }
@@ -16,11 +16,19 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer p {
         font-size: .7rem;
     }
 
     #footerinfo {
         grid-column: 3/4;
+        margin: 0 auto;
+    }
+
+    #footercontact {
+        margin: 0 auto
     }
 
     nav {

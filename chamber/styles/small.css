@@ -108,3 +108,21 @@ footer {
     color: var(--darkgreen);
     padding: 1rem;
 }
+
+footer div {
+    padding: .8rem 0;
+}
+
+footer p {
+    font-size: .9rem;
+}
+
+.footerchamber {
+    font-weight: 600;
+}
+
+#footersocials {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
