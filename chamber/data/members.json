@@ -55,11 +55,11 @@
             "year_joined": 2014
         },
         {
-            "name": "ExxonMobil",
+            "name": "Memorial Hermann Health System",
             "address": "404 Wellness Way, Houston, TX 77007",
             "phone": "(713) 222-5555",
-            "website": "https://corporate.exxonmobil.com",
-            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Exxon_Mobil_Logo.svg/500px-Exxon_Mobil_Logo.svg.png",
+            "website": "https://memorialhermann.org",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Logo_of_Memorial_Hermann_Hospital.png",
             "membership_level": 1,
             "year_joined": 2021
         }
