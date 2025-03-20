@@ -1,68 +1,67 @@
 {
     "companies": [
-      {
-        "name": "Tech Innovators Inc.",
-        "address": "123 Innovation Way, Houston, TX 77001",
-        "phone": "(713) 123-4567",
-        "website": "https://www.techinnovators.com",
-        "icon": "tech_innovators.png",
-        "membership_level": 3,
-        "year_joined": 2015
-      },
-      {
-        "name": "Green Solutions Ltd.",
-        "address": "456 Renewable St, Houston, TX 77002",
-        "phone": "(713) 987-6543",
-        "website": "https://www.greensolutions.com",
-        "icon": "green_solutions.png",
-        "membership_level": 2,
-        "year_joined": 2018
-      },
-      {
-        "name": "Blue Ocean Enterprises",
-        "address": "789 Gulf Blvd, Houston, TX 77003",
-        "phone": "(713) 555-0199",
-        "website": "https://www.blueocean.com",
-        "icon": "blue_ocean.png",
-        "membership_level": 1,
-        "year_joined": 2020
-      },
-      {
-        "name": "NextGen Robotics",
-        "address": "101 AI Drive, Houston, TX 77004",
-        "phone": "(713) 222-3344",
-        "website": "https://www.nextgenrobotics.com",
-        "icon": "nextgen_robotics.png",
-        "membership_level": 3,
-        "year_joined": 2016
-      },
-      {
-        "name": "Smart Home Systems",
-        "address": "202 Future Ave, Houston, TX 77005",
-        "phone": "(713) 789-1234",
-        "website": "https://www.smarthomesys.com",
-        "icon": "smart_home.png",
-        "membership_level": 2,
-        "year_joined": 2019
-      },
-      {
-        "name": "CyberSecure Inc.",
-        "address": "303 Data Protection St, Houston, TX 77006",
-        "phone": "(713) 456-7890",
-        "website": "https://www.cybersecure.com",
-        "icon": "cybersecure.png",
-        "membership_level": 3,
-        "year_joined": 2014
-      },
-      {
-        "name": "HealthTech Solutions",
-        "address": "404 Wellness Way, Houston, TX 77007",
-        "phone": "(713) 222-5555",
-        "website": "https://www.healthtechsolutions.com",
-        "icon": "healthtech.png",
-        "membership_level": 1,
-        "year_joined": 2021
-      }
+        {
+            "name": "Academy Sports + Outdoors",
+            "address": "123 Innovation Way, Houston, TX 77001",
+            "phone": "(713) 123-4567",
+            "website": "https://www.academy.com",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/7/77/Academy_Sports_%2B_Outdoors_Logo.svg",
+            "membership_level": 3,
+            "year_joined": 2015
+        },
+        {
+            "name": "Green Solutions Ltd.",
+            "address": "456 Renewable St, Houston, TX 77002",
+            "phone": "(713) 987-6543",
+            "website": "https://www.greensolutions.com",
+            "icon": "green_solutions.png",
+            "membership_level": 2,
+            "year_joined": 2018
+        },
+        {
+            "name": "Blue Ocean Enterprises",
+            "address": "789 Gulf Blvd, Houston, TX 77003",
+            "phone": "(713) 555-0199",
+            "website": "https://www.blueocean.com",
+            "icon": "blue_ocean.png",
+            "membership_level": 1,
+            "year_joined": 2020
+        },
+        {
+            "name": "NextGen Robotics",
+            "address": "101 AI Drive, Houston, TX 77004",
+            "phone": "(713) 222-3344",
+            "website": "https://www.nextgenrobotics.com",
+            "icon": "nextgen_robotics.png",
+            "membership_level": 3,
+            "year_joined": 2016
+        },
+        {
+            "name": "Smart Home Systems",
+            "address": "202 Future Ave, Houston, TX 77005",
+            "phone": "(713) 789-1234",
+            "website": "https://www.smarthomesys.com",
+            "icon": "smart_home.png",
+            "membership_level": 2,
+            "year_joined": 2019
+        },
+        {
+            "name": "CyberSecure Inc.",
+            "address": "303 Data Protection St, Houston, TX 77006",
+            "phone": "(713) 456-7890",
+            "website": "https://www.cybersecure.com",
+            "icon": "cybersecure.png",
+            "membership_level": 3,
+            "year_joined": 2014
+        },
+        {
+            "name": "HealthTech Solutions",
+            "address": "404 Wellness Way, Houston, TX 77007",
+            "phone": "(713) 222-5555",
+            "website": "https://www.healthtechsolutions.com",
+            "icon": "healthtech.png",
+            "membership_level": 1,
+            "year_joined": 2021
+        }
     ]
-  }
-  
+}
