@@ -110,6 +110,10 @@ ul.menulinks.open {
     display: block;
 }
 
+h1 {
+    padding: 0 1rem;
+}
+
 footer {
     background-color: var(--ivory);
     color: var(--darkgreen);
@@ -135,5 +139,39 @@ footer p {
 }
 
 #cards {
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 1rem;
+}
+
+section {
+    margin: .25rem;
+    padding: 0.25rem;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+section h2 {
+    font-size: 20px;
+    padding: .2rem;
+}
+
+section p {
+    font-size: 16px;
+    padding: .2rem;
+    color: var(--darkgreen);
+}
+
+section a {
+    text-decoration: none;
+    color: var(--darkgreen);
+}
+
+section img {
+    max-height: 40px;
+    width: auto;
 }

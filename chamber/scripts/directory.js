@@ -12,7 +12,7 @@ const displayCompanies = (companies) => {
         let name = document.createElement('h2');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let website = document.createElement('p');
+        let website = document.createElement('a');
         let logo = document.createElement('img');
 
         name.textContent = `${company.name}`;
@@ -22,6 +22,9 @@ const displayCompanies = (companies) => {
         phone.textContent = `${company.phone}`;
 
         website.textContent = `${company.website}`;
+
+        website.setAttribute('href', company.website);
+        website.setAttribute('target', '_blank');
 
         logo.setAttribute('src', company.icon);
         logo.setAttribute('alt', `Logo of ${company.name}.`);
