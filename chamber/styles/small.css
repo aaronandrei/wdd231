@@ -114,6 +114,49 @@ h1 {
     padding: 0 1rem;
 }
 
+.filterbuttons {
+    margin: .2rem auto;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    padding: .5rem;
+    background-color: var(--ivory);
+    text-align: center;
+}
+
+.filterbuttons button {
+    padding: .2rem;
+    margin: 0 1rem;
+    /* font-weight: 700; */
+    border-radius: .3rem;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #212922;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section:nth-child(even) {
+    background-color: var(--ivory);
+}
+
 footer {
     background-color: var(--ivory);
     color: var(--darkgreen);
