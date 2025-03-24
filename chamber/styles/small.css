@@ -194,11 +194,11 @@ footer p {
     margin: 0 auto;
 }
 
-#cards {
+/* #cards { */
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding: 1rem; */
-}
+/* } */
 
 section {
     margin: .25rem;
