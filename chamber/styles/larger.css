@@ -34,4 +34,9 @@
     nav {
         grid-template-rows: 1fr;
     }
+
+    .hero img {
+        width: 90%;
+        height: auto;
+    }
 }

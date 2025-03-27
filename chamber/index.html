@@ -4,20 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Directory Page</title>
-    <meta name="description" content="The directory page for the Chamber site of the website.">
+    <title>Houston Chamber Home Page</title>
+    <meta name="description" content="The Houston Chamber of Commerce home page website.">
     <meta name="author" content="Aaron Andrei M">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script defer src="../scripts/dates.js"></script>
     <script defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/directory.js"></script>
+    <!-- <script defer src="scripts/directory.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon-2.ico">
-    <meta property="og:title" content="Directory of Houston Chamber of Commerce.">
+    <meta property="og:title" content="Houston Chamber of Commerce home page.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://images.pexels.com/photos/10893475/pexels-photo-10893475.jpeg">
     <meta property="og:url" content="https://aaronandrei.github.io/wdd231/chamber/directory">
@@ -35,19 +35,31 @@
     </header>
     <nav id="animateme">
         <ul class="menulinks">
-            <li><a href="index.html" title="Home">Home</a></li>
-            <li class="active"><a href="#">Directory</a></li>
-            <li><a href="#" title="Join">Join</a></li>
+            <li class="active"><a href="#" title="Home">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="" title="Join">Join</a></li>
             <li><a href="#" title="Discover">Discovery</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Business Directory</h1>
-        <div class="filterbuttons">
-            <button id="grid"><img src="images/icons8-keypad-60.png" alt="Small icons image." width="30"></button>
-            <button id="list"><img src="images/icons8-list-60.png" alt="List icon image." width="30"></button>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero.webp" media="(min-width: 600px)">
+                <img src="images/hero2.webp" alt="Skyline view of Houston with trees." width="600" height="300"
+                    loading="lazy">
+            </picture>
         </div>
-        <div id="cards"></div>
+        <h1>Home</h1>
+        <div id="events">
+            <h2>Events</h2>
+        </div>
+        <div id="currentweather">
+            <h2>Current Weather</h2>
+        </div>
+        <div id="forecast">
+            <h2>Weather Forecast</h2>
+        </div>
+        <div id="businesshighlight"></div>
     </main>
     <footer>
         <div id="footercontact">

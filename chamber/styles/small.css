@@ -231,3 +231,13 @@ section img {
     max-height: 40px;
     width: auto;
 }
+
+.hero {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
