@@ -13,6 +13,7 @@
     <script defer src="../scripts/dates.js"></script>
     <script defer src="scripts/navigation.js"></script>
     <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/forecast.js"></script>
     <!-- <script defer src="scripts/directory.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,22 +52,27 @@
             </picture>
         </div>
         <h1>Home</h1>
-        <div id="events">
-            <h2>Events</h2>
-        </div>
-        <div id="currentweather">
-            <h2 id="city">Current Weather</h2>
-            <img id="weathericon" src="" alt="">
-            <p id="temperature"></p>
-            <p id="description"></p>
-            <p id="temphigh"></p>
-            <p id="templow"></p>
-            <p id="humidity"></p>
-            <p id="sunrise"></p>
-            <p id="sunset"></p>
-        </div>
-        <div id="forecast">
-            <h2>Weather Forecast</h2>
+        <div id="mainhome">
+            <div id="events">
+                <h2>Events</h2>
+            </div>
+            <div id="currentweather">
+                <h2>Current Weather</h2>
+                <img id="weathericon" src="" alt="">
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="temphigh"></p>
+                <p id="templow"></p>
+                <p id="humidity"></p>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+            </div>
+            <div id="forecast">
+                <h2>Weather Forecast</h2>
+                <p id="today"></p>
+                <p id="tomorrow"></p>
+                <p id="twodays"></p>
+            </div>
         </div>
         <div id="businesshighlight"></div>
     </main>

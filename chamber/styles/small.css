@@ -241,3 +241,40 @@ section img {
     width: 100%;
     height: auto;
 }
+
+#events,
+#currentweather,
+#forecast {
+    border: 1px solid var(--darkgreen);
+    background-color: var(--ivory);
+    border-radius: 5px;
+    text-align: center;
+    margin: 1rem;
+    min-height: 250px;
+}
+
+#currentweather {
+    font-size: .9rem;
+}
+
+h2 {
+    background-color: var(--darkgreen);
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#description {
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-weight: bold;
+}
+
+#forecast p {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 0 auto;
+}

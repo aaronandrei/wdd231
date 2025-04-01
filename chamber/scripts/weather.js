@@ -10,6 +10,7 @@ const mySunset = document.querySelector('#sunset');
 
 
 const myKey = process.env.API_KEY;
+// const myKey = "6b749431de4ec269e220cfa032263d9e"
 const myLat = "29.762990289886258"
 const myLong = "-95.38846844810067"
 
@@ -20,7 +21,7 @@ async function apiFetch() {
         const response = await fetch(myURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -36,7 +37,7 @@ function convertTimestamp(timestamp) {
 }
 
 function displayResults(data) {
-    console.log('hello')
+    // console.log('hello')
     myCity.innerHTML = data.name;
     myDescription.innerHTML = data.weather[0].description;
     myTemperature.innerHTML = `${Math.round(data.main.temp)}&deg;F`;
