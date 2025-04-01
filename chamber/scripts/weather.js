@@ -9,8 +9,8 @@ const mySunrise = document.querySelector('#sunrise');
 const mySunset = document.querySelector('#sunset');
 
 
-const myKey = process.env.API_KEY;
-// const myKey = "6b749431de4ec269e220cfa032263d9e"
+// const myKey = process.env.API_KEY;
+const myKey = "6b749431de4ec269e220cfa032263d9e"
 const myLat = "29.762990289886258"
 const myLong = "-95.38846844810067"
 

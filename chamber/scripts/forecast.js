@@ -2,8 +2,8 @@ const today = document.querySelector('#today');
 const tomorrow = document.querySelector('#tomorrow');
 const twoDays = document.querySelector('#twodays');
 
-const myKey = process.env.API_KEY;
-// const forecastKey = "6b749431de4ec269e220cfa032263d9e"
+// const myKey = process.env.API_KEY;
+const forecastKey = "6b749431de4ec269e220cfa032263d9e"
 const forecastLat = "29.762990289886258"
 const forecastLong = "-95.38846844810067"
 

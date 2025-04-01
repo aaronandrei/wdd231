@@ -23,7 +23,7 @@
     #currentweather,
     #forecast {
         min-width: 250px;
-        margin: 2rem;
+        /* margin: 2rem; */
     }
 
     footer {
