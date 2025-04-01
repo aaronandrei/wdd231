@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script defer src="../scripts/dates.js"></script>
     <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/weather.js"></script>
     <!-- <script defer src="scripts/directory.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +46,7 @@
         <div class="hero">
             <picture>
                 <source srcset="images/hero.webp" media="(min-width: 600px)">
-                <img src="images/hero2.webp" alt="Skyline view of Houston with trees." width="600" height="300"
+                <img src="images/hero2.webp" alt="Skyline view of Houston with trees." width="600" height="200"
                     loading="lazy">
             </picture>
         </div>
@@ -54,7 +55,15 @@
             <h2>Events</h2>
         </div>
         <div id="currentweather">
-            <h2>Current Weather</h2>
+            <h2 id="city">Current Weather</h2>
+            <img id="weathericon" src="" alt="">
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="temphigh"></p>
+            <p id="templow"></p>
+            <p id="humidity"></p>
+            <p id="sunrise"></p>
+            <p id="sunset"></p>
         </div>
         <div id="forecast">
             <h2>Weather Forecast</h2>
