@@ -242,6 +242,10 @@ section img {
     height: auto;
 }
 
+.homeheader {
+    margin: 1rem;
+}
+
 #events,
 #currentweather,
 #forecast {
@@ -249,7 +253,7 @@ section img {
     background-color: var(--ivory);
     border-radius: 5px;
     text-align: center;
-    margin: 1rem;
+    margin: .5rem;
     min-height: 250px;
 }
 
@@ -257,9 +261,14 @@ section img {
     font-size: .9rem;
 }
 
-h2 {
+#mainhome {
+    padding: .8rem;
+}
+
+#mainhome h2 {
     background-color: var(--darkgreen);
     color: white;
+    padding: .2rem 0;
     margin: 0;
     font-size: 1.5rem;
 }
