@@ -344,3 +344,88 @@ section img {
     max-width: 50px;
     max-height: 50px;
 }
+
+form {
+    /* margin: 1rem 2%; */
+    max-width: 300px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    background-color: var(--ivory);
+
+    label {
+        display: block;
+        font-size: .8rem;
+        color: var(--darkgreen);
+        padding-top: .2rem;
+    }
+
+    h3 {
+        font-size: .9rem;
+        color: var(--darkgreen);
+        margin: 1.5rem 0 .2rem 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    input[type=text],
+    input[type=tel],
+    input[type=date],
+    input[type=email],
+    textarea,
+    select {
+        display: block;
+        margin: .1rem 0 1rem 0;
+        padding: .3rem;
+        border: 1px solid #999;
+        border-radius: 4px;
+        border-left-width: 5px;
+        border-left-color: var(--blue);
+        font-size: 1rem;
+        color: #3D405B;
+        min-height: 44px;
+        width: 250px;
+    }
+
+    input:required {
+        border-left-color: var(--red);
+    }
+
+    input:focus {
+        border-left-color: var(--darkgreen);
+        outline: none;
+    }
+
+    input:required:valid {
+        border-left-color: var(--blue);
+    }
+
+    input[type=submit] {
+        border: none;
+        text-align: center;
+        background-color: var(--darkgreen);
+        color: #fff;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 2rem 0;
+        font-size: 1.2rem;
+        min-height: 44px;
+        width: 250px;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #3D405B;
+}
+
+#results {
+    background-color: #F4F1DE;
+    padding: 0 1rem;
+    border: 1px solid #E07A5F;
+    border-radius: 6px;
+}
+
+#busdescription {
+    /* padding: 1rem; */
+    margin: 1rem 0;
+}
