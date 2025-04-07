@@ -420,9 +420,11 @@ input:-webkit-autofill {
 
 #results {
     background-color: #F4F1DE;
-    padding: 0 1rem;
-    border: 1px solid #E07A5F;
+    padding: 1rem;
+    border: 1px solid var(--darkgreen);
     border-radius: 6px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 #busdescription {

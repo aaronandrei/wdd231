@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script defer src="../scripts/dates.js"></script>
     <script defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/directory.js"></script>
+    <!-- <script defer src="scripts/directory.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital@0;1&display=swap" rel="stylesheet">
@@ -48,7 +48,8 @@
                     title="Your First Name"></label>
             <label>Last Name <input type="text" name="last" required autocomplete="family-name"
                     title="Your Last Name"></label>
-            <label>Organizational Title <input type="text" pattern="[a-zA-Z\s-]{7,}" name="title" id="title" autocomplete="organization-title"
+            <label>Organizational Title <input type="text" pattern="[a-zA-Z\s-]{7,}" name="title" id="title"
+                    autocomplete="organization-title"
                     title="Please enter a minimum of 7 characters, using only letters, spaces, and hyphens"></label>
             <label>Email <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
                     autocomplete="email"></label>
@@ -64,8 +65,8 @@
             <label><input type="radio" name="membership-level" value="gold"> Gold Membership</label>
 
             <div id="busdescription">
-                <label for="busdescription">Business/Organization's Description </label>
-                <textarea id="busdescription" name="busdescription"
+                <label for="businessdescription">Business/Organization's Description </label>
+                <textarea id="businessdescription" name="businessdescription"
                     title="A brief description of your business or organization."></textarea>
             </div>
 
