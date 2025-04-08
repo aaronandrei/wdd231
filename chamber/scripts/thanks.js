@@ -8,7 +8,7 @@ document.querySelector('#results').innerHTML = `
 <p>We will reach out if we have any questons at the contact information provided.</p>
 <p>Phone: ${info.get('phone')}</p>
 <p>Email: ${info.get('email')}</p>
-<p>${info.get('timestamp')}
+<p>${info.get('timestamp')}</p>
 `
 
 // &timestamp=
