@@ -30,9 +30,9 @@ const membershipDetails = {
     "bronze": "Basic benefits like directory listing and networking access. $300 per year.",
     "silver": "Includes all Bronze benefits plus promotional features. $500 per year.",
     "gold": "Premium visibility, featured listings, and VIP event invites. $700 per year."
-  };
-  
-  function createModal(content) {
+};
+
+function createModal(content) {
     const modal = document.createElement("div");
     modal.className = "modal-overlay";
     modal.innerHTML = `
@@ -42,21 +42,21 @@ const membershipDetails = {
       </div>
     `;
     document.body.appendChild(modal);
-  
+
     modal.querySelector(".close-btn").onclick = () => modal.remove();
     modal.onclick = (e) => {
-      if (e.target === modal) modal.remove();
+        if (e.target === modal) modal.remove();
     };
-  }
-  
-  document.querySelectorAll(".m-card").forEach(card => {
+}
+
+document.querySelectorAll(".m-card").forEach(card => {
     card.addEventListener("click", () => {
-      const level = card.getAttribute("data-level");
-      createModal(membershipDetails[level]);
+        const level = card.getAttribute("data-level");
+        createModal(membershipDetails[level]);
     });
-  });
-  
-  function createModal(content) {
+});
+
+function createModal(content) {
     const modal = document.createElement("div");
     modal.className = "modal-overlay";
     modal.innerHTML = `
@@ -66,15 +66,14 @@ const membershipDetails = {
       </div>
     `;
     document.body.appendChild(modal);
-  
+
     const closeModal = () => {
-      modal.classList.add("fade-out");
-      setTimeout(() => modal.remove(), 300); // Wait for animation to finish
+        modal.classList.add("fade-out");
+        setTimeout(() => modal.remove(), 300); // Wait for animation to finish
     };
-  
+
     modal.querySelector(".close-btn").onclick = closeModal;
     modal.onclick = (e) => {
-      if (e.target === modal) closeModal();
+        if (e.target === modal) closeModal();
     };
-  }
-  
+}
