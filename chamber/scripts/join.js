@@ -49,7 +49,7 @@ const membershipDetails = {
     };
   }
   
-  document.querySelectorAll(".card").forEach(card => {
+  document.querySelectorAll(".m-card").forEach(card => {
     card.addEventListener("click", () => {
       const level = card.getAttribute("data-level");
       createModal(membershipDetails[level]);

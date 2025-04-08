@@ -63,12 +63,12 @@
         width: 30%;
         max-width: 300px;
     }
-    main {
+    /* main {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
         align-items: flex-start;
-    }
+    } */
     
     .designOne {
         flex: 2;
