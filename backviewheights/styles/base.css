@@ -1,0 +1,32 @@
+:root {
+    --black: #0A0903;
+    --red: #FF0000;
+    --orange: #FF8200;
+    --yellow: #FFC100;
+    --beige: #FFEAAE;
+    --main-font: 'Open Sans', 'Trebuchet MS', sans-serif;
+    --header-font: 'Special Gothic Expanded One', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    color: var(--black);
+    background-color: var(--beige);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--header-font);
+    padding: .7rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
