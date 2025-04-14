@@ -26,6 +26,7 @@ h1 {
     font-family: var(--header-font);
     padding: .7rem;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
