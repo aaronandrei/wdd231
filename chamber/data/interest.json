@@ -1,0 +1,44 @@
+{
+    "places": [
+        {
+            "name": "Houston Museum of Natural Science",
+            "address": "5555 Hermann Park Dr, Houston, TX 77030",
+            "description": "A popular museum featuring exhibits on paleontology, astronomy, chemistry, and more."
+        },
+        {
+            "name": "Buffalo Bayou Park",
+            "address": "1800 Allen Pkwy, Houston, TX 77019",
+            "description": "A scenic park offering hiking, biking trails, gardens, and views of the Houston skyline."
+        },
+        {
+            "name": "Space Center Houston",
+            "address": "1601 E NASA Pkwy, Houston, TX 77058",
+            "description": "NASA’s official visitor center offering exhibits on space exploration and science."
+        },
+        {
+            "name": "The Galleria",
+            "address": "5085 Westheimer Rd, Houston, TX 77056",
+            "description": "Texas’ largest shopping center featuring luxury stores, an ice rink, and restaurants."
+        },
+        {
+            "name": "Houston Zoo",
+            "address": "6200 Hermann Park Dr, Houston, TX 77030",
+            "description": "A large zoo housing over 6,000 animals with engaging exhibits and educational programs."
+        },
+        {
+            "name": "Discovery Green",
+            "address": "1500 McKinney St, Houston, TX 77010",
+            "description": "A vibrant urban park in downtown Houston with art installations, events, and playgrounds."
+        },
+        {
+            "name": "Museum of Fine Arts, Houston",
+            "address": "1001 Bissonnet St, Houston, TX 77005",
+            "description": "One of the largest art museums in the country, featuring diverse collections from around the world."
+        },
+        {
+            "name": "Gerald D. Hines Waterwall Park",
+            "address": "2800 Post Oak Blvd, Houston, TX 77056",
+            "description": "A dramatic multi-story water fountain and green space perfect for photos and relaxation."
+        }
+    ]
+}
