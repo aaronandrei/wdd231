@@ -4,8 +4,7 @@
     --orange: #FF8200;
     --yellow: #FFC100;
     --beige: #FFEAAE;
-    --main-font: 'Open Sans', 'Trebuchet MS', sans-serif;
-    --header-font: 'Special Gothic Expanded One', sans-serif;
+    --main-font: 'Mukta Malar', 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -20,11 +19,6 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
-}
-
-h1 {
-    font-family: var(--header-font);
-    padding: .7rem;
 }
 
 ul {
