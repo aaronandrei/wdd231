@@ -530,3 +530,39 @@ input:-webkit-autofill {
 .membership-cards {
     width: 100%;
 }
+
+#interest-cards div {
+    margin: 1rem 8px;
+    border: 1px solid var(--darkgreen);
+    background-color: var(--ivory);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "photograph"
+        "description"
+        "address";
+}
+
+#interest-cards div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#interest-cards div img {
+    width: 100%;
+    height: auto;
+    grid-area: photograph;
+}
+
+#interest-cards div p {
+    margin: 1rem;
+    grid-area: description;
+}
+
+#interest-cards div address {
+    margin: 1rem 10px;
+    grid-area: address;
+}
