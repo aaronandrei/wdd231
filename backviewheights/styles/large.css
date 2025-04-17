@@ -1,0 +1,29 @@
+@media (min-width: 64rem) {
+    #navbutton {
+        display: none;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    ul.menulinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    ul.menulins li a {
+        font-size: 1.1rem;
+        color: var(--beige);
+        text-decoration: none;
+    }
+
+}
