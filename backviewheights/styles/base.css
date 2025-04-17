@@ -26,6 +26,7 @@ header {
     display: grid;
     grid-template-columns: 50px auto 50px;
     padding: .7rem;
+    background-color: var(--black);
 }
 
 /* Hero styles */
