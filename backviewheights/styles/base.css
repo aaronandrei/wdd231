@@ -57,6 +57,7 @@ header {
     font-size: 2rem;
     z-index: 101;
     color: var(--beige);
+    cursor: pointer;
     position: relative;
 }
 
@@ -85,15 +86,45 @@ nav ul.menulinks {
     border: 1px solid var(--black);
     z-index: 100;
     opacity: 0;
-    pointer-events: none;
+    /* pointer-events: none; */
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open li a,
+nav.li a {
+    display: block;
+    text-decoration: none;
 }
 
 nav ul.menulinks a {
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: .5rem;
     text-decoration: none;
     color: var(--beige);
     text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul.menulinks li {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* color: var(--beige); */
+    /* border: 1px solid red; */
+}
+
+nav ul.menulinks li:hover {
+    background-color: var(--orange);
+}
+
+nav ul.menulinks li a:hover{
+    color: var(--black);
 }
 
 nav ul.menulinks.show {
@@ -101,6 +132,20 @@ nav ul.menulinks.show {
     display: flex;
     opacity: 1;
     pointer-events: auto;
+}
+
+li.active {
+    text-decoration: underline;
+    color: var(--beige);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul.menulinks {
+    list-style-type: none;
+}
+
+ul.menulinks.open {
+    display: block;
 }
 
 /* Socials on top of hero */
